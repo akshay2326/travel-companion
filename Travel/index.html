@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBunk - Find Your Travel Tribe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>TravelBunk</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#find-companion">Find Companion</a></li>
+                <li><a href="#explore-trips">Explore Trips</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li class="nav-cta">
+                    <a href="#login" class="login-btn">Login</a>
+                    <a href="#signup" class="signup-btn">Sign Up</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Bunk the Ordinary. <br>Travel Together.</h1>
+                <p class="hero-subtitle">Find your travel tribe, plan trips, and make memories — with TravelBunk.</p>
+                <div class="hero-buttons">
+                    <a href="#find-companion" class="btn btn-primary">Find a Companion</a>
+                    <a href="#plan-trip" class="btn btn-secondary">Plan a Trip</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-icons">
+                    <i class="fas fa-plane icon-plane"></i>
+                    <i class="fas fa-map icon-map"></i>
+                    <i class="fas fa-backpack icon-backpack"></i>
+                    <i class="fas fa-camera icon-camera"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-icon">
+                        <i class="fas fa-user-plus"></i>
+                    </div>
+                    <h3>Create a Profile</h3>
+                    <p>Tell us about yourself, your travel style, and dream destinations</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Match with TravelBuddies</h3>
+                    <p>Our algorithm connects you with like-minded travelers</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Chat & Plan Your Trip</h3>
+                    <p>Connect, chat, and plan your perfect adventure together</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Companion Matching Preview -->
+    <section id="find-companion" class="companion-matching">
+        <div class="container">
+            <h2 class="section-title">Meet Your Next Travel Buddy</h2>
+            <div class="companions-grid">
+                <div class="companion-card">
+                    <div class="companion-avatar">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face" alt="Priya">
+                        <div class="online-status"></div>
+                    </div>
+                    <div class="companion-info">
+                        <h3>Priya, 22</h3>
+                        <p class="destination"><i class="fas fa-map-marker-alt"></i> Goa • Dec 15-20</p>
+                        <div class="interests">
+                            <span class="tag">Beach Vibes</span>
+                            <span class="tag">Photography</span>
+                        </div>
+                        <button class="btn btn-outline">Connect</button>
+                    </div>
+                </div>
+                <div class="companion-card">
+                    <div class="companion-avatar">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face" alt="Arjun">
+                        <div class="online-status"></div>
+                    </div>
+                    <div class="companion-info">
+                        <h3>Arjun, 24</h3>
+                        <p class="destination"><i class="fas fa-map-marker-alt"></i> Manali • Jan 5-12</p>
+                        <div class="interests">
+                            <span class="tag">Adventure</span>
+                            <span class="tag">Trekking</span>
+                        </div>
+                        <button class="btn btn-outline">Connect</button>
+                    </div>
+                </div>
+                <div class="companion-card">
+                    <div class="companion-avatar">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face" alt="Sneha">
+                        <div class="online-status offline"></div>
+                    </div>
+                    <div class="companion-info">
+                        <h3>Sneha, 21</h3>
+                        <p class="destination"><i class="fas fa-map-marker-alt"></i> Rishikesh • This Weekend</p>
+                        <div class="interests">
+                            <span class="tag">Spiritual</span>
+                            <span class="tag">Budget Travel</span>
+                        </div>
+                        <button class="btn btn-outline">Connect</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trip Rooms Section -->
+    <section id="explore-trips" class="trip-rooms">
+        <div class="container">
+            <h2 class="section-title">Join Trip Rooms</h2>
+            <p class="section-subtitle">Connect with groups planning similar adventures</p>
+            <div class="rooms-grid">
+                <div class="room-card">
+                    <div class="room-image">
+                        <img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=250&fit=crop" alt="Goa Beach">
+                        <div class="room-badges">
+                            <span class="badge budget">Budget Friendly</span>
+                        </div>
+                    </div>
+                    <div class="room-content">
+                        <h3>Goa Beach Getaway</h3>
+                        <p><i class="fas fa-users"></i> 12 members • <i class="fas fa-calendar"></i> Dec 20-25</p>
+                        <p class="room-description">Chill beach vibes, local food, and sunset parties 🌅</p>
+                        <button class="btn btn-primary">Join Room</button>
+                    </div>
+                </div>
+                <div class="room-card">
+                    <div class="room-image">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=250&fit=crop" alt="Manali Trek">
+                        <div class="room-badges">
+                            <span class="badge adventure">Adventure</span>
+                        </div>
+                    </div>
+                    <div class="room-content">
+                        <h3>Manali Snow Trek</h3>
+                        <p><i class="fas fa-users"></i> 8 members • <i class="fas fa-calendar"></i> Jan 10-15</p>
+                        <p class="room-description">Epic mountain views and snow adventures ❄️</p>
+                        <button class="btn btn-primary">Join Room</button>
+                    </div>
+                </div>
+                <div class="room-card">
+                    <div class="room-image">
+                        <img src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=400&h=250&fit=crop" alt="Workation">
+                        <div class="room-badges">
+                            <span class="badge workation">Workation</span>
+                        </div>
+                    </div>
+                    <div class="room-content">
+                        <h3>Coorg Workation</h3>
+                        <p><i class="fas fa-users"></i> 15 members • <i class="fas fa-calendar"></i> Flexible</p>
+                        <p class="room-description">Work from coffee plantations ☕ WiFi guaranteed!</p>
+                        <button class="btn btn-primary">Join Room</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Explore by Budget Section -->
+    <section class="explore-budget">
+        <div class="container">
+            <h2 class="section-title">Where can you go with ₹3,000?</h2>
+            <div class="budget-slider">
+                <input type="range" min="1000" max="50000" value="3000" class="slider" id="budgetRange">
+                <div class="budget-display">
+                    <span>₹</span><span id="budgetValue">3,000</span>
+                </div>
+            </div>
+            <div class="destinations-grid">
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=300&h=200&fit=crop" alt="Rishikesh">
+                    <div class="destination-info">
+                        <h3>Rishikesh</h3>
+                        <p class="price">₹2,500 - ₹3,500</p>
+                        <div class="destination-features">
+                            <span><i class="fas fa-bed"></i> Hostel</span>
+                            <span><i class="fas fa-utensils"></i> Local Food</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1587474260584-136574528ed5?w=300&h=200&fit=crop" alt="Pushkar">
+                    <div class="destination-info">
+                        <h3>Pushkar</h3>
+                        <p class="price">₹2,800 - ₹4,000</p>
+                        <div class="destination-features">
+                            <span><i class="fas fa-bed"></i> Hostel</span>
+                            <span><i class="fas fa-bus"></i> Bus Travel</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=300&h=200&fit=crop" alt="Hampi">
+                    <div class="destination-info">
+                        <h3>Hampi</h3>
+                        <p class="price">₹2,200 - ₹3,200</p>
+                        <div class="destination-features">
+                            <span><i class="fas fa-bed"></i> Budget Stay</span>
+                            <span><i class="fas fa-bicycle"></i> Bike Rental</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Feed / Testimonials -->
+    <section class="social-feed">
+        <div class="container">
+            <h2 class="section-title">What Our Travel Tribe Says</h2>
+            <div class="rating-banner">
+                <div class="rating-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span class="rating-text">4.8⭐ from 5,000+ users</span>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=60&h=60&fit=crop&crop=face" alt="User">
+                        <div class="user-info">
+                            <h4>Kavya</h4>
+                            <span>@kavya_wanderlust</span>
+                        </div>
+                    </div>
+                    <p>"Met my roommate on TravelBunk! Now we're planning our Europe backpacking trip together 🎒✈️"</p>
+                    <div class="social-stats">
+                        <span><i class="fas fa-heart"></i> 234</span>
+                        <span><i class="fas fa-comment"></i> 45</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=60&h=60&fit=crop&crop=face" alt="User">
+                        <div class="user-info">
+                            <h4>Rohit</h4>
+                            <span>@rohit_explores</span>
+                        </div>
+                    </div>
+                    <p>"Budget Goa trip with strangers turned friends ❤️ TravelBunk made it happen! Already planning the next one"</p>
+                    <div class="social-stats">
+                        <span><i class="fas fa-heart"></i> 189</span>
+                        <span><i class="fas fa-comment"></i> 32</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=60&h=60&fit=crop&crop=face" alt="User">
+                        <div class="user-info">
+                            <h4>Ananya</h4>
+                            <span>@solo_ananya</span>
+                        </div>
+                    </div>
+                    <p>"As a solo female traveler, the safety features gave me confidence. Found amazing travel sisters! 👯‍♀️"</p>
+                    <div class="social-stats">
+                        <span><i class="fas fa-heart"></i> 312</span>
+                        <span><i class="fas fa-comment"></i> 67</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Safety Features Section -->
+    <section class="safety-features">
+        <div class="container">
+            <h2 class="section-title">Your Safety is Our Priority</h2>
+            <div class="safety-grid">
+                <div class="safety-card">
+                    <div class="safety-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Verified Profiles</h3>
+                    <p>All users go through our verification process with ID and phone number</p>
+                </div>
+                <div class="safety-card">
+                    <div class="safety-icon">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <h3>Emergency SOS</h3>
+                    <p>One-tap emergency button to alert your contacts and local authorities</p>
+                </div>
+                <div class="safety-card">
+                    <div class="safety-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Trust Level Badges</h3>
+                    <p>Earn trust badges through completed trips and positive reviews</p>
+                </div>
+                <div class="safety-card">
+                    <div class="safety-icon">
+                        <i class="fas fa-female"></i>
+                    </div>
+                    <h3>Female-Safe Mode</h3>
+                    <p>Optional mode to connect only with verified female travelers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- App Download CTA -->
+    <section class="app-download">
+        <div class="container">
+            <div class="app-content">
+                <h2>Coming Soon on Mobile!</h2>
+                <p>Get the TravelBunk app for the ultimate travel companion experience</p>
+                <div class="app-stores">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" class="store-badge">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="App Store" class="store-badge">
+                </div>
+                <div class="qr-code">
+                    <div class="qr-placeholder">
+                        <i class="fas fa-qrcode"></i>
+                        <p>Scan to get notified</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TravelBunk</h3>
+                    <p>Find your travel tribe and make memories that last a lifetime.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Find Companions</a></li>
+                        <li><a href="#">Explore Trips</a></li>
+                        <li><a href="#">Safety Center</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Partnerships</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TravelBunk. All rights reserved.</p>
+                <div class="footer-social-handles">
+                    <span>Instagram: @travelbunk</span>
+                    <span>Twitter: @bunkwithus</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chat Icon -->
+    <div class="chat-icon">
+        <i class="fas fa-comments"></i>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
