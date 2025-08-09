@@ -228,7 +228,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Add background when scrolled
         if (scrollTop > 50) {
-            navbar.style.background = 'rgba(255, 255, 255, 0.98)';
+            navbar.style.background = 'rgba(255, 254, 255, 0.98)';
             navbar.style.boxShadow = '0 2px 20px rgba(0, 191, 166, 0.15)';
         } else {
             navbar.style.background = 'rgba(255, 255, 255, 0.95)';
