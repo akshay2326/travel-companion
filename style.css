@@ -117,7 +117,7 @@ body {
 
 .hamburger span {
     width: 25px;
-    height: 3px;
+    height: 4px;
     background: #2D3436;
     margin: 3px 0;
     transition: 0.3s;
